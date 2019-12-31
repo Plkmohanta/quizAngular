@@ -1,0 +1,358 @@
+{
+  "quizData": {
+    "id": 1,
+    "name": "Quiz in Parliamentary System in India!",
+    "description": " Basic Multiple Choice Questions Parliamentary System.",
+    "questions": [{
+        "id": 1010,
+        "name": "“Parliamentary Government” is also known as....",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Cabinet Government",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "Responsible Government",
+            "isAnswer": false
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Westminster forms of government",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "All of the above",
+            "isAnswer": true
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1011,
+        "name": "Which of the following characteristics is not related to Parliamentary Government?",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Resolution of lower house",
+            "isAnswer": false
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Collective liability",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "Leadership of the Prime Minister",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "Single Executive",
+            "isAnswer": true
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1012,
+        "name": "Which of the following is not the merit of the Presidential System?",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Permanent Government",
+            "isAnswer": true
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Confirmation in policies",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "Limited Representation",
+            "isAnswer": true
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "Government by experts",
+            "isAnswer": false
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1013,
+        "name": "Which of the following is a demerit of the Parliamentary System?",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Compressed representation",
+            "isAnswer": false
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Uncertainty of policies",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "Temporary Government",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": " All of the above",
+            "isAnswer": true
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1014,
+        "name": "Which of the following statements is not correct?",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "According to the 42nd and the 44th amendment, it is compulsory for president to comply with the advice of the Council of Ministers.",
+            "isAnswer": false
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Presidential System is based on double executive.",
+            "isAnswer": true
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "According to the Article 74 the Council of Ministers works under the leadership of the Prime Minister.",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "Article 74 and 75 provides parliamentary system in the center.",
+            "isAnswer": false
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1015,
+        "name": "Which of the following characteristics is not related to the Presidential System?",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Governance of the Prime Minister",
+            "isAnswer": true
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Single Executive",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "Single Membership",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "Dissolution of lower house is baned",
+            "isAnswer": false
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1016,
+        "name": "Presidential System is the Governance of the President.",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Written Constitution",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "Flexible Constitution",
+            "isAnswer": true
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Supremacy of the Constitution",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "Independent Judiciary",
+            "isAnswer": false
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1017,
+        "name": "Flexible Constitution provision is not related to the federal government.",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "All the powers and functions are vested in the Central Government and Regional Government.",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": " All powers are divided into Central Government and Regional Government",
+            "isAnswer": true
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "Both A and B",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "None of the above",
+            "isAnswer": false
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1018,
+        "name": "The Federal System in India is based on the model of which country?",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Canada",
+            "isAnswer": true
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "UK",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "America",
+            "isAnswer": false
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "Japan",
+            "isAnswer": false
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      },
+      {
+        "id": 1019,
+        "name": "Which of the following statements is wrong?",
+        "questionTypeId": 1,
+        "options": [{
+            "id": 1055,
+            "questionId": 1010,
+            "name": "Lok Sabha represents the people of India.",
+            "isAnswer": false
+          },
+          {
+            "id": 1056,
+            "questionId": 1010,
+            "name": "The Rajya Sabha represents the states.",
+            "isAnswer": false
+          },
+          {
+            "id": 1057,
+            "questionId": 1010,
+            "name": "There are only 98 topics in the center list at this time.",
+            "isAnswer": true
+          },
+          {
+            "id": 1058,
+            "questionId": 1010,
+            "name": "Rajya Sabha protects the state with unnecessary interference from the Center",
+            "isAnswer": false
+          }
+        ],
+        "questionType": {
+          "id": 1,
+          "name": "Multiple Choice",
+          "isActive": true
+        }
+      }
+    ]
+  }
+}

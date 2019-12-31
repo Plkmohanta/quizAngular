@@ -1,0 +1,81 @@
+<div class="row">
+  <div class="col-12 text-center">
+    <h3>Quiz Application</h3>
+  </div>
+
+
+  <div class="col-12 " id="quiz">
+    <hr />
+
+    <div *ngIf="mode=='quiz' && quiz">
+      <div *ngFor="let question of filteredQuestions;">
+        <div style="padding: 0 0 10px 0;">
+          <div class="badge badge-info">Question {{pager.index + 1}} of {{pager.count}}.</div>
+          <div *ngIf="config.duration" class="badge badge-info float-right">Time: {{ellapsedTime}} / {{duration}}</div>
+        </div>
+
+        <h3 class="font-weight-normal">{{pager.index + 1}}.
+          <span [innerHTML]="question.name"></span>
+        </h3>
+        <div class="row text-left options">
+          <div class="col-12" *ngFor="let option of question.options">
+
+            <div class="option">
+              <label class="font-weight-normal" [attr.for]="option.id">
+                <input id="{{option.id}}" type="checkbox" [(ngModel)]="option.selected"
+                  (change)="onSelect(question, option);" /> {{option.name}}
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="text-center col-12">
+        <button class="btn btn-info float-left" (click)="mode = 'review'">Review</button>
+        <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(0);">First</button>
+        <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">Prev</button>
+        <button class="btn btn-primary" (click)="goTo(pager.index + 1);">Next</button>
+        <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button>
+        <button class="btn btn-success float-right" (click)="onSubmit();">Submit Quiz</button>
+      </div>
+    </div>
+
+    <div class="row text-center" *ngIf="mode=='review'">
+      <div class="col-4 cursor-pointer" *ngFor="let question of quiz.questions; let index = index;">
+
+        <div (click)="goTo(index)" class="p-3 mb-2 {{ isAnswered(question) == 'Answered'? 'bg-info': 'bg-warning' }}">
+          {{index + 1}}. {{ isAnswered(question) }}</div>
+      </div>
+    </div>
+    <div class="result" *ngIf="mode=='result'">
+      <div class="text-center">
+        <h4>Your Score:<span class="badge badge-pill badge-info">{{totalScore}} </span></h4>
+      </div>
+      <div *ngFor="let question of quiz.questions; let index = index">
+        <div class="result-question">
+          <h5>{{index + 1}}. {{question.name}}</h5>
+          <div class="row">
+            <div class="col-12" *ngFor="let Option of question.options">
+              <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" />
+              {{Option.name}}
+            </div>
+          </div>
+          <div *ngIf="isAnswered(question) != 'Answered'" style="color: red; padding: 0 0 5px 10px;">
+            {{ isAnswered(question) }} Yet!!
+          </div>
+          <div *ngIf="isAnswered(question) == 'Answered'"
+            class="p-1 m-2 alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">
+            Your answer is {{isCorrect(question)}}.
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <button type="button" class="btn btn-warning ml-auto" (click)=" returnToQuiz()"> Back to Quiz.
+        </button>
+
+      </div>
+    </div>
+    <hr />
+  </div>
+
+</div>
